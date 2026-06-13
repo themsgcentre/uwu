@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .title {
+        font-weight: bold;
+    }
+
+    .question {
+        margin-top: 10px;
+        color: rgb(170, 128, 135);
+        font-weight: bold;
+    }
+
+    .subquestion {
+        font-size: 28px;
+    }
+
+    .form-area {
+        margin-top: 40px;
+        width: 70%;
+        height: 200x;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 40px;
+        border: solid rgb(170, 128, 135) 2.5px;
+        border-radius: 5px;
+        color: rgb(170, 128, 135);
+        font-weight: bold;
+        padding: 4px 80px;
+    }
+
+    .message {
+        margin-top: 36px;
+        text-align: center;
+        width: 70%;
+    }
+}

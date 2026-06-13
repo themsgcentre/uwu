@@ -1,0 +1,14 @@
+.container {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+
+    .label {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .picker {
+        width: 100%;
+    }
+}

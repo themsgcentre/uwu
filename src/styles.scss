@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Moon Flower Bold';
+    src: url('./assets/fonts/Moon\ Flower.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Moon Flower Bold';
+    font-size: 36px;
+}

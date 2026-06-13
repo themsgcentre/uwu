@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="title"> YAY!!</div>
+    <div class="question">when are u free?</div>
+    <div class="subquestion"> (16. oder 17. abends maybe?)</div>
+
+    <div class="form-area">
+        <app-date-picker (dateSubmitted)="dateChanged($event)"></app-date-picker>
+        <app-time-picker (timeChanged)="timeChanged($event)"></app-time-picker>
+    </div>
+    <div class="button" (click)="onSubmit()">Send</div>
+    @if (showMessage) {
+        <div class="message">ähm, dings, du musst schon alles angeben.</div>
+    }
+</div>

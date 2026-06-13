@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="title">cooking & beer (RADLER FOR U)?</div>
+    <div class="hands">👉👈</div>
+    <div class="button-container">
+        <div class="button" (click)="onYes()">yes</div>
+        <div class="button" (click)="onNo()">no</div>
+    </div>
+
+    <div class="image-container">
+        <img 
+            src="https://cdn-icons-png.flaticon.com/512/4646/4646533.png"
+            width="100px"
+        >
+    </div>
+
+    @if(showMessage) {
+        <div class="message">HALLO DRÜCK GEFÄLLIGST JA WAS SOLL DAS???</div>
+    }
+</div>
